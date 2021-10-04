@@ -1,0 +1,216 @@
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: url(../imagens/capa.jpg);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgb(255, 255, 255, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffb5cc;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #E54376;
+}
+
+.dropdown-item{
+	color: #ffb5cc;
+  }
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.capa {
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+    text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-rosa {
+	background: #E54376;
+}
+
+.btn-rosa:hover {
+	background: #8a304c;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: #E54376;
+}
+
+.btn-link {
+	color: #E54376;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+	color: #8a304c;
+}
+
+.card-body {
+	font-size: 0.8em;
+}
+
+.card-body h6 {
+	text-align: justify;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.list-group-item {
+	text-align: center;
+}
+
+.links {
+	text-decoration: none;
+	color: #E54376;
+}
+
+.links:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#presentes {
+	background: white;
+}
+
+#presentes h2, h3 {
+	color: #E54376;
+}
+
+#sites h3 {
+	color: white;
+}
+
+#sites ul li{
+	color: #E54376;
+}
+
+#sites ul li:hover{
+	background-color: #ffb5cc;
+	color: white;
+}
+
+#video h3 {
+	color: white;
+}
+
+.presente {
+	margin-top: 80px;
+}
+
+.texto-form {
+	color: #E54376;
+}
+
+.btn-card {
+	background-color: #E54376;
+	color: white;
+}
+
+.btn-card:hover {
+	background-color: #8a304c;
+	color: white;
+}
+
+.btn-contato {
+	background-color: #E54376;
+	border-radius: 500px;
+	padding: 10px 20px;
+	color: white;
+}
+
+.btn-contato:hover {
+	background-color: #8a304c;
+	color: white;
+}
+
+.presente h5 {
+	color: #E54376;
+}
+
+#restaurantes {
+	background: white;
+}
+
+footer {
+	background: rgb(255, 255, 255, 0.8);
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #8a304c;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: #E54376;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #ffb5cc;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
